@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>viettel phone number</title>
+</head>
+<body>
+    <script>
+        var arr= ['0975051376','0932331234','0329944203','0915521365','0901231231','0971231234','0985051378'];
+            v1= /^(097)[0-9]{7}$/;
+            v2= /^(032)[0-9]{7}$/;
+            v3= /^(098)[0-9]{7}$/;
+            for(let i=0; i<arr.length;i++) {
+                if(v1.test(arr[i]) ||v2.test(arr[i])||v3.test(arr[i])) {
+                  document.write(arr[i]+ ' là SĐT của nhà mạng Viettel' + '<br>');
+            }
+        }
+    </script>
+
+</body>
+</html>
